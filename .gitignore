@@ -206,3 +206,16 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 datasets
+
+# macOS
+.DS_Store
+
+# ML artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+runs/
+wandb/
+.cache/
