@@ -1,0 +1,19 @@
+# Core ML stack
+torch>=2.2
+transformers>=4.40
+datasets>=2.19.2
+accelerate>=0.30
+
+# Tokenization / serialization (transformers deps, pin to 3.12-compatible)
+tokenizers>=0.14
+sentencepiece>=0.2
+safetensors>=0.4
+protobuf>=4.21
+
+# HF auth for gated dataset (huggingface_hub.login)
+huggingface_hub>=0.20
+
+# Data libs (2.x: 1.x has no Python 3.12 wheels)
+numpy>=2.1
+pandas>=2.1
+pyarrow>=14.0.2

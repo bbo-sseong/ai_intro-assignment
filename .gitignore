@@ -1,0 +1,13 @@
+# Model checkpoints (2.3 GB each) — never commit/push these
+checkpoints/
+
+# Logs and caches
+logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.hf_home/
+
+# Outputs: ignore everything except the submission zips
+outputs/*
+!outputs/*.zip
