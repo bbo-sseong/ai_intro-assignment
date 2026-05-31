@@ -43,11 +43,14 @@ pip install -r requirements.txt
 
 ### Hugging Face authentication (required)
 
-The dataset `weerayut/multilexnorm2026-dev-pub` is **gated**. Log in once with a Hugging
-Face account that has accepted the dataset terms:
+The dataset `weerayut/multilexnorm2026-dev-pub` is **gated**. First, open the dataset page
+while signed in and **accept the access terms**. Then authenticate locally (any one):
 
 ```bash
-huggingface-cli login          # or: export HF_TOKEN=hf_xxx
+export HF_TOKEN=hf_xxxxxxxx     # works with every huggingface_hub version (recommended)
+# or, interactively:
+hf auth login                   # huggingface_hub >= 1.0
+# (older huggingface_hub used `huggingface-cli login`, now deprecated)
 ```
 
 ---
