@@ -9,7 +9,8 @@ model fine-tuned on all 17 languages jointly (no per-language modules), followed
 deterministic **copy-fallback** post-processing layer that vetoes risky edits on
 high-LAI languages.
 
-**Best dev-phase score (CodaBench):** **51.90** weighted ERR (Error Reduction Rate).
+**Best dev-phase score (CodaBench):** **52.01** weighted ERR (macro-average 54.28),
+with the model trained on train + validation combined. (ERR = Error Reduction Rate.)
 
 ---
 
